@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+	char s[6]="welcome";
+	char t[5];
+	int i;
+	for(i=0;s[i]!='\0', i++)
+	{
+		t[i]=s[i];
+	}
+	printf("%s",t);
+	return 0;
+}
+
